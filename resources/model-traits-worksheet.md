@@ -11,10 +11,10 @@
 | Aprovador | Recebe solicitações e determina se devem avançar para a próxima etapa do processo. Exemplo: verificação de fraude |
 | Enforcer | Garante que outros contextos realizem certas operações. Exemplo: Contexto GDPR (garante que outros contextos excluam todos os dados de um usuário) |
 | Octopus Enforcer | Garante que vários / todos os contextos no sistema cumpram uma regra padrão. Exemplo: Contexto GDPR (como acima) |
-| Interchanger | Traduz entre vários idiomas onipresentes. |
+| Interchanger | Traduz entre várias linguagens ubiquas. |
 | Gateway | Senta-se na extremidade de um sistema e gerencia a comunicação de entrada e / ou saída. Exemplo: gateway de mensagens IoT |
 | Gateway Interchange | A combinação de um gateway e um intercâmbio. |
-| Contexto Dogfood | Simula a experiência do cliente ao usar os contextos principais limitados. Exemplo: loja de música Whitelabel |
+| Contexto Dogfood | Simula a experiência do cliente ao usar os bounded contexts principais. Exemplo: loja de música Whitelabel |
 | Contexto da bolha | Situa-se na frente de contextos legados, fornecendo um modelo novo e mais limpo, enquanto os contextos legados estão sendo substituídos. |
 | Bolha autônoma | Contexto de bolha que tem seu próprio armazenamento de dados e sincroniza dados de forma assíncrona com os contextos legados. |
 | Contexto do cérebro (provável anti-padrão) | Contém um grande número de regras importantes e muitos outros contextos dependem dele. Exemplo: mecanismo de regras contendo todas as regras do domínio |
